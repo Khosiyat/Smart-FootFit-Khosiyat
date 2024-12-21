@@ -1,1 +1,5 @@
- 
+CREATE TABLE foot_scans (
+    id SERIAL PRIMARY KEY,
+    file_path TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
